@@ -1,6 +1,6 @@
 //
 //  Settings.swift
-//  SingletonExample
+//  DesignPatternsExample
 //
 //  Created by Анастасия Траверсе on 12.06.2020.
 //  Copyright © 2020 Анастасия Траверсе. All rights reserved.
@@ -14,7 +14,7 @@ import UIKit
 class Settings{
     static let shared = Settings()
     // return link on this object
-    // static - live in app memory, while app running 
+    // static - live in app memory, while app running
     
     var colorStyle = UIColor.white
     var volumeLevel: Float = 1.0
@@ -22,3 +22,4 @@ class Settings{
     private init() {}
     
 }
+

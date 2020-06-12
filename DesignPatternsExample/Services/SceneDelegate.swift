@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  SingletonExample
+//  DesignPatternsExample
 //
 //  Created by Анастасия Траверсе on 12.06.2020.
 //  Copyright © 2020 Анастасия Траверсе. All rights reserved.

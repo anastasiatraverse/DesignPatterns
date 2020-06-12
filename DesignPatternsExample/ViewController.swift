@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  SingletonExample
+//  DesignPatternsExample
 //
 //  Created by Анастасия Траверсе on 12.06.2020.
 //  Copyright © 2020 Анастасия Траверсе. All rights reserved.
@@ -12,6 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+
+
+    private func singleton(){
         // UserDefaults.standart - Apple's Singleton example
         // URLSession.shared - Apple's URL session singleton
 
@@ -21,7 +25,6 @@ class ViewController: UIViewController {
         
         print("Update: \(Settings.shared.volumeLevel)")
     }
-
-
+    
 }
 
