@@ -11,7 +11,10 @@ import UIKit
 
 //Example of Settings APP file
 
+
 class Settings{
+    //Class Example
+    
     static let shared = Settings()
     // return link on this object
     // static - live in app memory, while app running
@@ -20,6 +23,5 @@ class Settings{
     var volumeLevel: Float = 1.0
     
     private init() {}
-    
 }
 
