@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // UserDefaults.standart - Apple's Singleton example
+        // URLSession.shared - Apple's URL session singleton
 
         print("Default \(Settings.shared.volumeLevel)")
         
